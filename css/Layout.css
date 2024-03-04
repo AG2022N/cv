@@ -1,13 +1,5 @@
-﻿* {
-
-}
-
-header {
-    padding-bottom: 80px;
-}
-
-body {
-    max-width: 1200px;
+﻿body {
+    max-width: fit-content;
     background-color: rgb(10, 10, 10);
 }
 
@@ -23,26 +15,8 @@ a {
     color: rgb(0, 0, 255)
 }
 
-.content-column {
-    column-count: 2;
-    padding-bottom: 20px;
-}
-
-.content-center {
-    display: flex;
-    justify-content: center;
-}
-
-.content-left {
-    flex-grow: 1;
-    margin: 20px;
-    transform: translateX(5%);
-}
-
-.content-right {
-    flex-grow: 1;
-    margin: 20px;
-    transform: translate(55%, 2.5%);
+.content-column-new{
+    column-count: 3;
 }
 
 footer {
