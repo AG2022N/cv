@@ -10,6 +10,17 @@ body {
     background-color: rgb(10, 10, 10);
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+    transform: translate(70%, 15%);
+  }
+
+  .grid-item {
+    padding: 20px;
+  }
+  
 h1 {
     color: rgb(255, 255, 255)
 }
@@ -23,14 +34,6 @@ li {
 }
 a {
     color: rgb(0, 0, 255)
-}
-
-.content {
-    display: flex;
-}
-
-.content-column {
-    column-count: 3;
 }
 
 footer {
